@@ -1,33 +1,33 @@
-var x,d
+var y,d
 function setup ()
 {
 createCanvas (500,500);
 background (0);
-x = 1;
+y = 1;
 d = 0;
 }
 
 function draw()
 {
     clear();
-    ellipse (x,250,20,20);
+    ellipse (250,y,20,20);
 
-    if (x<0)
+    if (y<0)
     {
         d=0;
     }
 
     if (d==0)
     {
-        x++
+        y++
     }
-    if (x>width)
+    if (y>width)
     {
         d=1;
     }
 
     if (d==1)
     {
-        x--
+        y--
     }
 }
