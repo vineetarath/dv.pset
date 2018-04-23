@@ -1,0 +1,14 @@
+0008: Caroll's Puzzles
+
+
+(a) My saucepans are the only things I have that are made of tin. 
+I find all your presents very useful. 
+None of my saucepans are of the slightest use.
+
+S: My Saucepans
+T: Are made of tin
+P: Your presents
+U: Useful
+
+S -> T-> ~U-> ~P
+Or, "None of my saucepans are gifted by you"
