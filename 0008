@@ -49,8 +49,6 @@ Or, "A true poet was Shakespeare!" or "Shakespeare was a true poet"
 
 
 
-
-
 (c)
 I despise anything that cannot be used as a bridge.
 Everything, that is worth writing an ode to, would be a welcome gift to me.
@@ -58,4 +56,15 @@ A rainbow will not bear the weight of a wheelbarrow.
 Whatever can be used as a bridge will bear the weight of a wheelbarrow.
 I would not take, as a gift, a thing that I despise.
 
+D: I despise
+B: Can be used as a bridge
+O: Worth writing an ode to
+G: Welcome gift for me
+R: Rainbow
+W: Wheelbarrow weight
 
+(Logical relationships: D -> ~B; O -> G; ~O -> ~G; R -> ~W; B -> W; ~B -> ~W; R -> ~B; D -> G; D -> ~B -> ~G)
+
+"R -> ~B -> D -> ~G -> ~O"   or   "O -> ~R"
+
+Or, "A rainbow is not worth writing an ode to" or, "If it is worth writing an ode to, it cannot be a rainbow"
