@@ -1,14 +1,73 @@
 0008: Caroll's Puzzles
 
 
-(a) My saucepans are the only things I have that are made of tin. 
-I find all your presents very useful. 
+(a) SAUCEPANS
+My saucepans are the only things I have that are made of tin.
+I find all your presents very useful.
 None of my saucepans are of the slightest use.
 
+
+Answer:
+------
 S: My Saucepans
 T: Are made of tin
 P: Your presents
 U: Useful
 
-S -> T-> ~U-> ~P
+(Logical relationships: S -> T; P -> U; ~S -> U; S -> ~U ; U -> ~P)  
+
+" S -> T-> ~U -> ~P "
+
 Or, "None of my saucepans are gifted by you"
+
+
+
+
+(b) TRUE POETS
+All writers, who understand human nature, are clever.
+No one is a true poet unless he can stir the hearts of men.
+Shakespeare wrote “Hamlet”.
+No writer, who does not understand human nature, can stir the hearts of men.
+None but a true poet could have written “Hamlet”.
+
+
+Answer:
+------
+W: Writers
+H: Understand human nature
+C: Clever
+P: True poet
+R: Stir hearts of men
+S: Shakespeare
+O: Wrote "Hamlet"
+
+(Logical relationships: W -> H -> C; ~R -> ~P; R -> P; O -> S; W -> ~H -> ~R; P -> O; )
+
+"W -> H -> R -> P -> O -> S"
+
+Or, "A true poet was Shakespeare!" or "Shakespeare was a true poet"
+
+
+
+(c)
+I despise anything that cannot be used as a bridge.
+Everything, that is worth writing an ode to, would be a welcome gift to me.
+A rainbow will not bear the weight of a wheelbarrow.
+Whatever can be used as a bridge will bear the weight of a wheelbarrow.
+I would not take, as a gift, a thing that I despise.
+
+D: I despise
+B: Can be used as a bridge
+O: Worth writing an ode to
+G: Welcome gift for me
+R: Rainbow
+W: Wheelbarrow weight
+
+(Logical relationships: D -> ~B; O -> G; ~O -> ~G; R -> ~W; B -> W; ~B -> ~W; R -> ~B; D -> G; D -> ~B -> ~G)
+
+"R -> ~B -> D -> ~G -> ~O"   or   "O -> ~R"
+
+Or, "A rainbow is not worth writing an ode to" or, "If it is worth writing an ode to, it cannot be a rainbow"
+
+
+
