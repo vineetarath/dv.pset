@@ -1,4 +1,4 @@
-var x, y, r, A
+var x,y,r1,r2,A
 function setup(){
 createCanvas (500,500);
 background (67);
