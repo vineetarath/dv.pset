@@ -1,21 +1,22 @@
-#n = str(input('Enter any number between 0001 and 9999 to find the sum of its digits: '))
-#v = int(n[0]) + int(n[1]) + int(n[2]) + int(n[3])
-#print (n[0]+ " + " + n[1]+ " + "+ n[2]+ " + "+ n[3] + " = " + str(v))
+n1 = str(input('Enter any number 1 to find the sum of its digits: '))
+n2 = str(input('Enter any number 2 to find the sum of its digits: '))
+def findSumOfDigits(n1):
+    number1 = 0
+    for i in range (len(n1)):
+        number1 += int(n1[i])
+    return(number1)
+print (findSumOfDigits(n1))
 
-number = 0
-n = str(input('Enter any number to find the sum of its digits: '))
-l = len(n)
-print (l)
-i = 0
+def findSumOfDigits1(n2):
+    number2 = 0
+    for i in range (len(n2)):
+        number2 += int(n2[i])
+    return(number2)
+print (findSumOfDigits(n2))
 
-def findSumOfDigits(x):
-    for i in range (len(n)):
-        number += int(n[i])
-o = addIndexValFn()
-print (number)
-
-#i = 0
-#for l in range (0,l):
-#    i = int(n[l])+int (n[l+1])
-#v = int(n[0]) + int(n[1]) + int(n[2]) + int(n[3])
-#print (i)
+def compareN():
+    if findSumOfDigits(n1) == findSumOfDigits(n2):
+        print(1)
+    else:
+        print (0)
+compareN()
